@@ -3,7 +3,7 @@ import { Blocks, Code2, Sparkles } from "lucide-react";
 import ThemeSelector from "./ThemeSelector";
 import LanguageSelector from "./LanguageSelector";
 import RunButton from "./RunButton";
-// import HeaderProfileBtn from "./HeaderProfileBtn";
+import VoiceAssistantButton from "./VoiceAssistantButton"
 
 async function Header() {
     return (
@@ -45,6 +45,7 @@ async function Header() {
                         <ThemeSelector />
                         <LanguageSelector />
                     </div>
+                    <VoiceAssistantButton />
                     <RunButton />
                 </div>
             </div>
