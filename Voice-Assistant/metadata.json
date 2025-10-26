@@ -1,0 +1,8 @@
+
+{
+  "name": "Voice-Enabled Code Assistant",
+  "description": "An advanced code assistant that empowers developers to write, edit, and debug code using natural language voice commands. It streamlines the development process by converting spoken instructions into real-time coding actions.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
